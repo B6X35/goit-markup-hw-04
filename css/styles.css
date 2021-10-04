@@ -104,7 +104,7 @@ header{
 .header-top-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -120,13 +120,14 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-left: 93px;
 }
 
 
 .header-con {
     display: flex;
     align-items: center;
-    
+    margin-left: auto;
 }
 
 .logo-box {
@@ -210,8 +211,6 @@ button {
     cursor: pointer;
     outline: 0;
     border-radius: 4px;
-    width: 200px;
-    height: 50px;
 }
 
 .button1:hover,
@@ -244,6 +243,7 @@ button {
     line-height: 1.9;
     color: var(--white-text-color);
     background-color: var(--active-1-color);
+    padding: 10px 32px;
 }
 
 /* ===================END TITLE============================================================================ */
@@ -270,6 +270,7 @@ button {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
+    margin-bottom: 10px;
 }
 
 .feature-subtitle {
@@ -362,8 +363,9 @@ button {
 }
 
 .team {
+    flex-basis: calc((100% - 120px) / 4 );
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 .team-title {
@@ -393,13 +395,13 @@ button {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--white-text-color); 
-    margin-left: 30px;
 }
 
 .team-a-position {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    margin-top: 16px;
 }
 
 .team-a-border {
@@ -476,18 +478,19 @@ button {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
-    flex-basis: calc(( 100% - 90px) / 3 );
+    flex-basis: calc(( 100% - 90px) / 5 );
     margin-left: 8px;
     margin-top: 8px;
     background-color: var(--white-text-color);
     border-radius: 4px;
-    height: 38px;
+    padding: 6px 22px;
 }
 
 .button-box-portfolio {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    justify-content: center;
     margin-left: -8px;
     margin-top: -8px;
     margin-bottom: 50px;
@@ -575,6 +578,7 @@ footer {
     align-items: center;
     justify-content: flex-start;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .footer-bot-adre {
@@ -592,7 +596,6 @@ footer {
     color: var(--active-1-color);
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 .logo4 {
@@ -603,7 +606,6 @@ footer {
     text-decoration: none;
     display: inline-block;
     color: var(--white-text-color);
-    margin-bottom: 20px;
 }
 
 
