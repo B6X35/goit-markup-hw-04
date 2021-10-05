@@ -20,7 +20,6 @@
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .sprite-color {
@@ -174,7 +173,10 @@ header{
     text-decoration: none;
     color: var(--description-color);
     margin-left: auto;
-    margin-right: 50px;
+}
+
+.contact-pos {
+    margin-right: 30px;
 }
 
 .contact1:focus,
@@ -211,6 +213,7 @@ button {
     cursor: pointer;
     outline: 0;
     border-radius: 4px;
+    border-width: 0;
 }
 
 .button1:hover,
@@ -227,6 +230,7 @@ button {
     text-align: center;
     color: var(--white-text-color);
     margin-bottom: 30px;
+    text-transform: none;
 }
 
 .title-box {
@@ -266,6 +270,7 @@ button {
 }
 
 .feature-title {
+    text-transform: initial;
     border: 1px;
     font-weight: 700;
     font-size: 14px;
@@ -323,20 +328,18 @@ button {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin-left: -30px;
     margin-top: -30px;
+    margin-left: -30px;
 }
 
 .subject-img {
     flex-basis: calc(( 100% - 90px) / 3 );
+    margin-top: 30px;
     margin-left: 30px;
-    margin-top: 30px
 }
 
 .subject-size {
-    width: 370;
-    height: 294;
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* ===================END IMG WORK============================================================================ */
@@ -347,7 +350,7 @@ button {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 
 .team-bg {
@@ -377,8 +380,8 @@ button {
 
 .team-text-position {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-subtitle {
@@ -400,7 +403,6 @@ button {
 .team-a-position {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
     margin-top: 16px;
 }
 
@@ -443,7 +445,9 @@ button {
 
 .client-a-position {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
 }
 
 .client-a-border {
@@ -454,7 +458,6 @@ button {
     width: 170px;
     height: 92px;
     border: 1px solid var(--icon-color-1);
-    margin-right: 30px;
 }
 
 .client-a-icon {
@@ -480,8 +483,7 @@ button {
     line-height: 1.6;
     flex-basis: calc(( 100% - 90px) / 5 );
     margin-left: 8px;
-    margin-top: 8px;
-    background-color: var(--white-text-color);
+    background-color: var(--bg-team-color);
     border-radius: 4px;
     padding: 6px 22px;
 }
@@ -492,7 +494,6 @@ button {
     list-style: none;
     justify-content: center;
     margin-left: -8px;
-    margin-top: -8px;
     margin-bottom: 50px;
 }
 
