@@ -410,7 +410,8 @@ button {
 }
 
 .team-a-icon-pos {
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .team-a-icon {
@@ -469,6 +470,7 @@ button {
 }
 
 .client-a-icon {
+  
   fill: var(--icon-color-1);
   width: 106px;
   height: 60px;
